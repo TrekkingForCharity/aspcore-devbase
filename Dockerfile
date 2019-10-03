@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.0 AS builder
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS builder
 
 # INSTALL PRE REQS
 RUN apt-get update -yq \
